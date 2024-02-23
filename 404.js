@@ -28,19 +28,9 @@ const Component404 = (props) => {
         <div className={styles['nav']}>
           <NavigationLinks rootClassName="rootClassName11"></NavigationLinks>
         </div>
-        <div data-role="BurgerMenu" className={styles['burger-menu']}>
-          <svg viewBox="0 0 1024 1024" className={styles['icon']}>
-            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-          </svg>
-        </div>
         <div data-role="MobileMenu" className={styles['mobile-menu']}>
           <div className={styles['nav1']}>
             <div className={styles['container3']}>
-              <img
-                alt="image"
-                src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                className={styles['image']}
-              />
               <div
                 data-role="CloseMobileMenu"
                 className={styles['close-mobile-menu']}
