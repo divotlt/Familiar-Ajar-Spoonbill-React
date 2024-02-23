@@ -3,17 +3,15 @@ import React from 'react'
 import { DateTimePrimitive } from '@teleporthq/react-components'
 
 import NavigationLinks from './navigation-links'
-import styles from './index.module.css'
+import styles from './component-404.module.css'
 
-const Index = (props) => {
+const Component404 = (props) => {
   return (
     <div className={styles['container']}>
       <header data-role="Header" className={styles['header']}>
         <div className={styles['container1']}>
-          <span className={styles['text']}>
-            <span>The Scarlet Project</span>
-            <br></br>
-          </span>
+          <span className={styles['text']}>Text</span>
+          <div className={styles['container2']}></div>
         </div>
         <span className={styles['date-time']}>
           <DateTimePrimitive
@@ -28,7 +26,7 @@ const Index = (props) => {
           ></DateTimePrimitive>
         </span>
         <div className={styles['nav']}>
-          <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
+          <NavigationLinks rootClassName="rootClassName11"></NavigationLinks>
         </div>
         <div data-role="BurgerMenu" className={styles['burger-menu']}>
           <svg viewBox="0 0 1024 1024" className={styles['icon']}>
@@ -37,7 +35,7 @@ const Index = (props) => {
         </div>
         <div data-role="MobileMenu" className={styles['mobile-menu']}>
           <div className={styles['nav1']}>
-            <div className={styles['container2']}>
+            <div className={styles['container3']}>
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -52,7 +50,7 @@ const Index = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks rootClassName="rootClassName18"></NavigationLinks>
+            <NavigationLinks rootClassName="rootClassName12"></NavigationLinks>
           </div>
           <div>
             <svg
@@ -76,57 +74,17 @@ const Index = (props) => {
           </div>
         </div>
       </header>
-      <span className={styles['text03']}>
-        <span>Find Prompts:</span>
+      <h1 className={styles['text1']}>
+        <span>404</span>
         <br></br>
+        <br></br>
+      </h1>
+      <span className={styles['text5']}>
+        The Content you have searched doesn&apos;t exist. You may typed your
+        link wrong or the location has been moved/deleted.
       </span>
-      <span className={styles['text06']}>
-        <span>1.) Chatting&lt;/li&gt;</span>
-        <br></br>
-        <span>2.) Prompt Engineering</span>
-        <br></br>
-        <span>3.) Proxies Sites</span>
-      </span>
-      <span className={styles['text12']}>
-        <span>
-          Use any AI in the Discord server to
-          <span
-            dangerouslySetInnerHTML={{
-              __html: ' ',
-            }}
-          />
-        </span>
-        <br></br>
-        <span>find jailbreaks.</span>
-      </span>
-      <span className={styles['text16']}>What to do:</span>
-      <span className={styles['text17']}>
-        <span>Create jailbreaks prompts.</span>
-        <br></br>
-        <span>(Please note, your prompts</span>
-        <br></br>
-        <span>
-          are being processed into a
-          <span
-            dangerouslySetInnerHTML={{
-              __html: ' ',
-            }}
-          />
-        </span>
-        <br></br>
-        <span>greater prompt) </span>
-        <br></br>
-        <br></br>
-      </span>
-      <div className={styles['container3']}>
-        <span className={styles['text27']}>
-          <span>   POPUP                      -  ❒  X </span>
-          <br></br>
-        </span>
-      </div>
-      <h1 className={styles['text30']}>Discord Server</h1>
     </div>
   )
 }
 
-export default Index
+export default Component404
