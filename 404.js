@@ -26,7 +26,8 @@ const Component404 = (props) => {
           ></DateTimePrimitive>
         </span>
         <div className={styles['nav']}>
-          <NavigationLinks rootClassName="rootClassName11"></NavigationLinks>
+          <Nav
+          igationLinks rootClassName="rootClassName11"></NavigationLinks>
         </div>
         <div data-role="MobileMenu" className={styles['mobile-menu']}>
           <div className={styles['nav1']}>

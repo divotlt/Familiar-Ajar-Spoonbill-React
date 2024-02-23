@@ -174,11 +174,6 @@
     .prompts-nav {
       display: none;
     }
-    .prompts-burger-menu {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   }
   @media(max-width: 479px) {
     .prompts-header {

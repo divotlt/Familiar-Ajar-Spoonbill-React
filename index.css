@@ -227,11 +227,6 @@
     .index-nav {
       display: none;
     }
-    .index-burger-menu {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   }
   @media(max-width: 479px) {
     .index-header {

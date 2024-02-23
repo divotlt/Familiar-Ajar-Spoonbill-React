@@ -103,9 +103,6 @@
     align-items: center;
     flex-direction: row;
   }
-  .component-404-burger-menu {
-    display: none;
-  }
   .component-404-icon {
     width: var(--dl-size-size-xsmall);
     height: var(--dl-size-size-xsmall);
@@ -183,11 +180,6 @@
     }
     .component-404-nav {
       display: none;
-    }
-    .component-404-burger-menu {
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
   }
   @media(max-width: 479px) {
